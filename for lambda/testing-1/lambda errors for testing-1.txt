@@ -1,0 +1,28 @@
+OpenCV bindings requires "numpy" package.
+Install it via command:
+pip install numpy
+START RequestId: ab86c301-73c6-4f81-b98c-42e505106749 Version: $LATEST
+[ERROR] Runtime.ImportModuleError: Unable to import module 'measure_object_size': 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.9 from "/var/lang/bin/python3.9"
+  * The NumPy version is: "1.24.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+Traceback (most recent call last):END RequestId: ab86c301-73c6-4f81-b98c-42e505106749
+REPORT RequestId: ab86c301-73c6-4f81-b98c-42e505106749	Duration: 1.47 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 37 MB	Init Duration: 122.32 ms	

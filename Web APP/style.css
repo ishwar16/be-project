@@ -1,0 +1,12 @@
+.displayImage {
+    width: 550px;
+    height: 310px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+#img {
+    width: 550px;
+    height: 310px;
+}

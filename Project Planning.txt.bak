@@ -1,0 +1,54 @@
+Note that if you're developing a web application, it will be way more efficient to store images separately in binary form,
+and store paths to those images in your JSON or elsewhere. That also allows your client's browser to cache the images.
+
+
+
+
+
+System Flow
+
+	-Get images from 3 cameras
+	-calculate the height and width from each cameras
+	-adjust the measurements it inclination detected
+	-calculate volume 
+	-store in Database
+	
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+	Web App Accept Image 
+		Exceptions
+		+ min and Max 2 images
+		+ Adjusting
+			Height Width Resolution
+		+ Check Image Background
+		+ Define Image Size
+		
+		
+			Store Image in Browser/S3 Bucket
+				-Naming the Image as GUID
+					-Top view
+					-Side View
+					-Front View
+				-Saving Data to Database
+					-Location
+					-Company
+					-Station
+					-User
+					-Front Image Readings
+					-Top Image Readings
+					-Side Image Readings
+					-GUID
+				-
+				
+				
+				
+				
+-------------------------------------------------------------------------------------------------------------------------------------
+		
+			FrontEnd-------AJAX----Headers(Images - GUID)----->----+=API=+---ENDPOINT---NodeJS-Server------
+
+			Data Excchange Format - JSON
+				Exchange among
+					Front End - HTML/JS to B
